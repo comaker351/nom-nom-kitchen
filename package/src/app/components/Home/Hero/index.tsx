@@ -9,12 +9,11 @@ const Hero = () => {
         <div className='grid grid-cols-1 lg:grid-cols-12 items-center'>
           <div className='lg:col-span-6'>
             <h1 className='font-semibold mb-5 text-black lg:text-start text-center sm:leading-20 leading-16'>
-              Elevated Dining at Chef’s Kitchen
+              Authentic BBQ Skewers in New York
             </h1>
             <p className='text-black/55 text-lg font-normal mb-10 lg:text-start text-center'>
-              Indulge in an elegant culinary journey, crafted with locally
-              sourced ingredients and world-class flavors — served fresh, every
-              day.
+              Freshly grilled lamb, beef, pork and chicken skewers served at
+              festivals, street markets and private events.
             </p>
             <div className='flex flex-col sm:flex-row gap-5 items-center justify-center lg:justify-start'>
               <Link href='/#menu'>
@@ -22,9 +21,9 @@ const Hero = () => {
                   View Menu
                 </button>
               </Link>
-              <Link href='/#reserve'>
+              <Link href='/#contact'>
                 <button className='text-xl border border-primary rounded-full font-medium py-3 px-8 text-primary hover:text-white hover:bg-primary hover:cursor-pointer transition ease-in-out duration-300'>
-                  Reserve a Table
+                  Contact Us
                 </button>
               </Link>
             </div>
@@ -33,17 +32,17 @@ const Hero = () => {
             <div className='flex bg-white p-2 gap-5 items-center bottom-10 left-10 rounded-xl absolute'>
               <Image
                 src={'/images/hero/pizza.webp'}
-                alt='pizza-image'
+                alt='BBQ skewer detail'
                 width={68}
                 height={68}
               />
               <p className='text-lg font-normal'>
-                Over 50+ <br /> signature dishes
+                BBQ skewers <br /> and lemonade
               </p>
             </div>
             <Image
               src='/images/hero/banner-image.webp'
-              alt='nothing'
+              alt='Nom Nom Kitchen BBQ skewers'
               width={1000}
               height={805}
             />

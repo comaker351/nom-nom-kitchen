@@ -9,7 +9,7 @@ const Cook = () => {
         <div className='absolute right-0 bottom-[-18%] xl:block hidden'>
           <Image
             src='/images/Cook/burger.webp'
-            alt='burger-image'
+            alt='BBQ food accent'
             width={463}
             height={622}
           />
@@ -18,7 +18,7 @@ const Cook = () => {
           <div className='lg:col-span-6 flex lg:justify-start justify-center'>
             <Image
               src='/images/Cook/cook.webp'
-              alt='nothing'
+              alt='Nom Nom Kitchen food vendor'
               width={636}
               height={808}
             />
@@ -28,22 +28,23 @@ const Cook = () => {
               About Us
             </p>
             <h2 className='lg:text-start text-center'>
-              Crafted with Passion, Served with Pride
+              New York pop-up flavor, grilled fresh.
             </h2>
             <p className='text-black/50 text-lg font-normal my-5 text-start'>
-              At Chef’s Kitchen, every dish tells a story. Our chefs blend
-              tradition with innovation to deliver a fine dining experience that
-              delights the senses. From handpicked ingredients to exquisite
-              plating, we’re here to make every meal unforgettable.
+              Nom Nom Kitchen is a New York local food vendor serving BBQ
+              skewers, fresh lemonade, pop-up food events, and catering for
+              gatherings of all sizes.
             </p>
             <p className='text-black/50 text-lg font-normal mb-10 text-start'>
-              Whether you’re celebrating a special occasion or enjoying a casual
-              evening out, our welcoming ambiance and flavorful creations
-              promise something truly special for every guest.
+              We bring a focused street food menu, quick service, and fresh
+              open-flame grilling to festivals, street markets, private parties,
+              and corporate events.
             </p>
-            <button className='text-xl font-medium rounded-full text-white py-3 px-8 duration-300 bg-primary w-fit border border-primary hover:bg-transparent hover:text-primary hover:cursor-pointer'>
-              Learn more
-            </button>
+            <a
+              href='/#events'
+              className='text-xl font-medium rounded-full text-white py-3 px-8 duration-300 bg-primary w-fit border border-primary hover:bg-transparent hover:text-primary hover:cursor-pointer'>
+              Events & Catering
+            </a>
           </div>
         </div>
       </div>
